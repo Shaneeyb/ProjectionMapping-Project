@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="styles.css"/>
+
+    <title>Projection Mapping Project</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark sticky-top">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="showcase">
+      <div class="parallax"></div>
+        <video src="Y2Mate.is - Epson PowerLite L Laser Projectors   Projection Mapping at Temple House-K4MZ-K_VA3Q-1080p-1630369426830.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Project-O/R</h2> 
+          <h3>Never Stop Creating</h3>
+    </section>
+    <div style="height:1000px;background-color:grey;font-size:36px">
+      Scroll Up and Down this page to see the parallax scrolling effect.
+      This div is just here to enable scrolling.
+      Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+
+    <div class="parallax"></div>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+ <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+ <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+ <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
